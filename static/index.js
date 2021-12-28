@@ -7,7 +7,7 @@ window.onload = () => {
 			let formData = new FormData();
 			formData.append('image' , input.files[0]);
 			$.ajax({
-				url: "https://plantdetector.herokuapp.com/detectObject", // fix this to your liking
+				url: "https://object-detector-nitkkr.herokuapp.com/detectObject", // fix this to your liking
 				type:"POST",
 				data: formData,
 				cache: false,
